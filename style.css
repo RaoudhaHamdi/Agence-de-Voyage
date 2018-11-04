@@ -10,10 +10,12 @@
 .navbar-inverse {
     margin-bottom: 0;
     background-color: #2c3e50;
+    opacity:0.9;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #F4A907;
+    /*color: #F4A907;*/
+    color:#ffd300;
 }
 
 nav .fixed-top {
@@ -26,7 +28,7 @@ nav .fixed-top {
 nav .container-fluid {
     margin-right: 50px;
     margin-left: 50px;
-    padding: 10px;
+    padding:10px 0;
 }
 
 .navbar-header a {
@@ -40,9 +42,15 @@ nav .container-fluid {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #F4A907;
+    /*color: #F4A907;*/
+    color:#ffd300;
 }
-
+.logo
+{
+    height:40px;
+    width:200px;
+    padding-bottom:8px;
+}
 .image {
     background-image: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-0.3.5&s=5a327349f9bedbe617da123dba7fdb9f&auto=format&fit=crop&w=750&q=80');
     background-position: center;
@@ -54,7 +62,7 @@ nav .container-fluid {
 }
 
 @media (min-width:340px)and(max-width:767px){
-    #accueil {
+    .image {
         width:auto;
     }
 }
@@ -65,8 +73,6 @@ nav .container-fluid {
 }
 .wrapper {
 
-    width: 940px;
-    margin: 0 auto;
     padding: 280px 10px;
     display: flex;
     justify-content: center;
@@ -150,6 +156,10 @@ img {
     text-align: center;
     max-width: 300px;
 }
+.description img
+{
+    
+}
 
 .voyages img {
 
@@ -172,7 +182,7 @@ h3
     width: 400px;
     text-transform: uppercase;
     margin: 0 auto 20px auto;
-    border-bottom: 2px solid #F4A907;
+    border-bottom: 2px solid #ffd300;
     padding-top:50px;
     padding-bottom: 20px;
   }
@@ -180,8 +190,8 @@ h3
 {
     width:50px;
     height:35px;
-    background-color:#F4A907; 
-    border-color: #F4A907;
+    background-color:#ffd300; 
+    border-color: #ffd300;
 }
 span
 {
@@ -214,7 +224,7 @@ p
 }
 
 .footer h1 span {
-    color: #F4A907;
+    color: #ffd300;
     font-weight: 900;
     border-radius: 50%;
 }
@@ -226,8 +236,13 @@ p
     text-align: center;
     -webkit-border-radius: 4px;
     color: #fff;
-    background-color: #F4A907;
+    background-color:#ffd300;
     z-index: 99;
     right: 20px;
     bottom: 20px;
 }
+
+
+
+
+
